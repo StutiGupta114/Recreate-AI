@@ -1,0 +1,37 @@
+.container-left {
+    display: flex;
+    width:50%;
+    margin:30px;
+    padding:10px;
+  }
+  .container-left > div {
+    flex: 1;
+    border: 1px solid black;
+  }
+  .content-box{
+      width: 725px;
+      border : 1px solid black;
+      padding: 10px;
+      margin: 30px;
+      overflow-y: auto;
+      height: 500px;
+  }
+  .video-item{
+    display: flex !important;
+    align-items: center !important;
+    cursor:pointer;
+  }
+  .video-item.item img{
+    max-width: 150px;
+  }
+  .container-right{
+    width: 50%;
+    float: right;
+  }
+  .slide{
+  height : 200px;
+  width : 650px;
+  border: 1px solid black;
+  margin : 20px;
+  padding:20px;
+}
